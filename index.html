@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 <link href="css/Soporte_2023.css" rel="stylesheet">
 <link href="css/Soporte-2023.css" rel="stylesheet">
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
 </head>
 <body>
 <div id="wb_header">
@@ -236,7 +237,7 @@ pablo-pinto-asesor"><div id="Icon1"><i class="fa fa-linkedin"></i></div></a>
 <div class="row">
 <div class="col-1">
 <div id="wb_Heading1" style="display:inline-block;width:100%;z-index:28;">
-<h2 id="Heading1">Contacto</h2>
+<h2 id="Heading1"><a href="javascript:displaylightbox('https://bs6jwyk2dx2.typeform.com/to/uoSN3NzH',{})" target="_self" title="Typeform">Contacto</a></h2>
 </div>
 </div>
 </div>
@@ -280,6 +281,15 @@ pablo-pinto-asesor"><div id="Icon1"><i class="fa fa-linkedin"></i></div></a>
 <script src="js/jquery.ui.effect.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script>
+function displaylightbox(url, options)
+{
+   options.items = { src: url };
+   options.type = 'iframe';
+   $.magnificPopup.open(options);
+}
+</script>
 <script>
 document.addEventListener('DOMContentLoaded', function(event)
 {
