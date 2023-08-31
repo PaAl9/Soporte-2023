@@ -1466,7 +1466,7 @@ a:hover
 {
    z-index: 1111 !important;
 }
-#wb_creativeText 
+#wb_Texto_Creativo 
 {
    background-color: transparent;
    background-image: none;
@@ -1476,11 +1476,11 @@ a:hover
    margin: 0 0 30px 0 ;
    text-align: left;
 }
-#wb_creativeText div
+#wb_Texto_Creativo div
 {
    text-align: left;
 }
-#wb_creativeText
+#wb_Texto_Creativo
 {
    display: block;
    margin: 0 0 30px 0 ;
@@ -1910,7 +1910,7 @@ a:hover
    margin: 0;
    text-align: left;
 }
-#wb_Text12 
+#wb_Información2 
 {
    background-color: transparent;
    background-image: none;
@@ -1920,11 +1920,11 @@ a:hover
    margin: 25px 0 0 0 ;
    text-align: left;
 }
-#wb_Text12 div
+#wb_Información2 div
 {
    text-align: left;
 }
-#wb_Text12
+#wb_Información2
 {
    display: block;
    margin: 25px 0 0 0 ;
