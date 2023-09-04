@@ -2221,25 +2221,6 @@ a:hover
    margin-right: auto;
    vertical-align: top;
 }
-#wb_Imagen_Antimalware
-{
-   margin: 0;
-   vertical-align: top;
-}
-#Imagen_Antimalware
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 628px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
-}
 #wb_Imagen_Software
 {
    margin: 0;
@@ -2332,16 +2313,16 @@ a:hover
    box-sizing: border-box;
    width: 100%;
 }
-#wb_Antimalware 
+#wb_Recuperación_Datos 
 {
    margin: 0;
 }
-#wb_Antimalware p, #wb_Antimalware ul
+#wb_Recuperación_Datos p, #wb_Recuperación_Datos ul
 {
    margin: 0;
    padding: 0;
 }
-#wb_Antimalware
+#wb_Recuperación_Datos
 {
    display: block;
    margin: 0;
@@ -2457,4 +2438,23 @@ a:hover
 #Botón1:focus
 {
    outline: 0;
+}
+#wb_Imagen_Recuperación_Datos
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Imagen_Recuperación_Datos
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 1152px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
 }
